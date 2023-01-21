@@ -34,11 +34,178 @@
   </head>
   <body>
     <div class="container">
-      <nav></nav>
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Mahalakshmi Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/logo-small.png"
+            alt="Mahalakshmi Logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Mahalakshmi">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Projects by Mahalakshmi">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Mahalakshmi's contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <p class="mt-5">Hi 🙋‍♀️, Welcome to my portfolio page</p>
-    <p>I am</p>
-    <h1>Mahalakshmi Viswanath</h1>
-    <h2>Junior Front end developer based in The Hague, The Netherlands</h2>
+    <div class="hero">
+      <p>🙋‍♀️ Hi, I am</p>
+      <h1>Mahalakshmi Viswanath</h1>
+      <h2 class="mb-5">Front-end developer, based in The Netherlands</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="contact me"
+          >Contact Me</a
+        >
+      </div>
+    </div>
+    <p class="text-center m-5">Some of my projects till now</p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/spb.png"
+            alt="Singer Project Preview"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Favourite Singer Project</h2>
+            <p class="mb-5 text-muted">
+              Sripathi Panditaradhyula Balasubrahmanyam, also referred to as SPB
+              or SP Balu or Balu, was an Indian playback singer, television
+              presenter, actor, music composer, dubbing artist, and film
+              producer. He is widely regarded as one of the greatest Indian
+              singers of all time.
+            </p>
+            <div class="mb-2">
+              <a
+                href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/315/828/original/index.html?1669977548"
+                target="_blank"
+                >Click here to see the project</a
+              >
+            </div>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >See more projects</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">React Weather Project</h2>
+            <p class="mb-5 text-muted">
+              Weather is the state of the atmosphere, describing for example the
+              degree to which it is hot or cold, wet or dry, calm or stormy,
+              clear or cloudy.[1] On Earth, most weather phenomena occur in the
+              lowest layer of the planet's atmosphere, the troposphere,[2][3]
+              just below the stratosphere.
+            </p>
+            <div class="mb-2">
+              <a
+                href="https://ornate-arithmetic-0f2598.netlify.app/"
+                target="_blank"
+                >Click here to see the project</a
+              >
+            </div>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >See more projects</a
+            >
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/reactweather.png"
+            alt="React Weather Project Preview"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/hague.png"
+            alt="Travel Project Preview"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Travel Project</h2>
+            <p class="mb-5 text-muted">
+              The origin of the word "travel" is most likely lost to history.
+              The term "travel" may originate from the Old French word travail,
+              which means 'work'.[2] According to the Merriam-Webster
+              dictionary, the first known use of the word travel was in the 14th
+              century.
+            </p>
+            <div class="mb-2">
+              <a href="https://hague-travel-projectbymahalakshmi.netlify.app/"
+                >Click here to see the project</a
+              >
+            </div>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >See more projects</a
+            >
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Details"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:mpn1984@gmail.com"
+            class="email-link"
+            title="Drop an email to Mahalakshmi"
+            >mpn1984@gmail.com</a
+          >
+        </div>
+        <div class="social-media d-flex justify-content-center">
+          <a
+            href="https://www.github.com/mahavis/"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Mahalakshmi and it is
+          <a
+            href="https://github.com/mahavis/Portfolio-project-Search-Engine-Optimisation"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
