@@ -1,3 +1,247 @@
+:root {
+  --background-color: #f9f7fe;
+  --background-button: #6c63ff;
+  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--background-button);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: black;
+}
+h1 {
+  font-size: 70px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h4 {
+  font-size: 48px;
+}
+
 body {
+  font-family: var(--default-font-family);
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.hero {
+  background: var(--background-color);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  background: var(--background-button);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--background-button);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 1px solid var(--background-button);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+
+  .my-image {
+    width: 190px;
+    height: 250px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .heroine {
+    text-align: center;
+    padding: 0;
+  }
+
+  .list {
+    font-size: 5px;
+  }
+
+  .para {
+    font-size: 10px;
+  }
+
+  .source {
+    font-size: 5px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
+
+.heroine {
   background: lightblue;
+  padding: 60px 20px;
+}
+
+.heroine h1 {
+  font-size: 44px;
+  line-height: 55px;
+}
+
+.heroine h2 {
+  font-size: 18px;
+}
+
+.heroine p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.heroine-content {
+  margin: 30px;
+}
+
+.my-image {
+  width: 400px;
+  height: 400px;
+  left: 67px;
+  top: 1136px;
+}
+
+.work-container {
+  padding: 60px 20px;
+}
+
+.work h3 {
+  font-size: 24;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.work p {
+  font-size: 14px;
+  margin: 0;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--background-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--background-button);
+}
+
+footer .social-media a {
+  margin: 0 20px;
+  color: var(--background-button);
+  background: var(--background-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-media a:hover {
+  color: white;
+  background-color: #6c63ff;
 }
